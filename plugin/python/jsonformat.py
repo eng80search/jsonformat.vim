@@ -60,3 +60,5 @@ def json_format():
     for json_one_line in formated_json.splitlines():
         vim.current.buffer.append(json_one_line)
         #  print(json_one_line)
+
+    vim.command("set filetype=json")
